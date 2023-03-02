@@ -93,16 +93,11 @@ export default {
       console.log('ajax');
     },
     async del(userid,index){
-        const response1 = await fetch("http://localhost:3000/items",{
+        const response1 = await fetch("http://localhost:3000/items/"+userid,{
           method:'delete', 
-          //body:JSON.stringify(Object.assign({},this.item)),
-          // headers:{
-          //   'content-type':'application/json'
-          // }
         });
         this.items.splice(index,1);
       console.log('ajax');
-      this.items.push(await response.json())
     }
   },
   mounted() {

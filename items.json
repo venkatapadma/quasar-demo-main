@@ -1,20 +1,10 @@
 {
   "items": [
     {
-      "name": "IPhone",
-      "price": 1000,
-      "id": 1
-    },
-    {
-      "name": "Samsung",
-      "price": "2500",
-      "id": 2
-    },
-    {
       "name": "IPhone2",
-      "price": "3000",
-      "date": "2023/05/05",
-      "id": 3
+      "price": "100030",
+      "date": "2023/03/31",
+      "id": 2
     }
   ]
 }
